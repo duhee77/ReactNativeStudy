@@ -37,8 +37,7 @@ function App() {
         backBehavior="history"
         screenOptions={{
           headerShown: false,
-        }}
-      />
+        }}>
         <Drawer.Screen
           name="Home"
           component={HomeScreen}
