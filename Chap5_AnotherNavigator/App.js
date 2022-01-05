@@ -15,7 +15,12 @@ const MessageScreen = () => <Text>Message</Text>;
 const App = () => {
   return (
     <NavigationContainer>
-      <Tab.Navigator initialRouteName="Home">
+      <Tab.Navigator
+        initialRouteName="Home"
+        tabBarOptions={{
+          activeTintColor: '#fb8c00',
+          showLabel: false,
+        }}>
         <Tab.Screen
           name="Home"
           component={HomeScreen}
